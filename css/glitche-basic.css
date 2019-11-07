@@ -83,12 +83,13 @@ body.loaded .section {
   .container {
     margin: 15px;
   }
+
 }
 
 .container .line {
   content: '';
   position: fixed;
-  background: #4caf50;
+  background: #9c27b0;
   z-index: 105;
 }
 
@@ -263,7 +264,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: #4caf50;
+  color: #9c27b0;
 }
 
 /* 6. Buttons */
@@ -291,15 +292,15 @@ a.btn,
 a.btn.fill,
 .btn.fill {
   color: #ffffff;
-  background: #4caf50;
-  border: 1px solid #4caf50;
+  background: #9c27b0;
+  border: 1px solid #9c27b0;
 }
 
 a.btn:hover,
 .btn:hover {
   color: #ffffff;
-  background: #4caf50;
-  border: 1px solid #4caf50;
+  background: #9c27b0;
+  border: 1px solid #9c27b0;
 }
 
 /* 7. Preloader */
@@ -314,13 +315,13 @@ a.btn:hover,
 }
 
 .preloader .load {
-  color: #4caf50;
+  color: #9c27b0;
   font-size: 12px;
 }
 
 .preloader .typed-load,
 .preloader .typed-cursor {
-  color: #4caf50;
+  color: #9c27b0;
   font-size: 12px;
 }
 
@@ -356,7 +357,7 @@ input:focus,
 textarea:focus,
 button:focus {
   color: #141414;
-  border-bottom: 1px solid #4caf50;
+  border-bottom: 1px solid #9c27b0;
 }
 
 textarea {
@@ -376,7 +377,7 @@ button {
 }
 
 button:hover {
-  border-bottom: 1px solid #4caf50;
+  border-bottom: 1px solid #9c27b0;
 }
 
 label,
@@ -616,20 +617,20 @@ blockquote {
 
   .glitch-effect-white:before,
   .glitch-effect-white:after {
-    background: #4caf50;
+    background: #9c27b0;
   }
 
   .glitch-effect:after,
   .glitch-effect-white:after {
     left: 2px;
-    text-shadow: -1px 0 #4caf50;
+    text-shadow: -1px 0 #9c27b0;
     animation: glitch-1 2s infinite linear alternate-reverse;
   }
 
   .glitch-effect:before,
   .glitch-effect-white:before {
     left: -2px;
-    text-shadow: 2px 0 #4caf50;
+    text-shadow: 2px 0 #9c27b0;
     animation: glitch-2 2s infinite linear alternate-reverse;
   }
 
